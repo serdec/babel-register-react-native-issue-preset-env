@@ -8,7 +8,7 @@ To run the tests i launch the following command
 node -r @babel/register app.test.js
 ```
 
-However, since React Native doesn't transpile its modules, I need to manually include the react-native modules inside the `node_modules`
+However, since React Native doesn't transpile its modules, I need to manually include the react-native modules
 
 ## REPRODUCE THE PROBLEM
 
