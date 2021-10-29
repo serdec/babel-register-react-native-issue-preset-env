@@ -2,7 +2,7 @@
 
 I'm trying to use [riteway](https://github.com/ericelliott/riteway) as testing framework for a React Native application.
 
-To run the tests i launch the following the command
+To run the tests i launch the following command
 
 ```shell
 node -r @babel/register app.test.js
