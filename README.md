@@ -16,4 +16,4 @@ However, since React Native doesn't transpile its modules, I need to manually in
 node -r ./babel-register-start.js app.test.js
 ```
 
-i created a simple `babel-register-start.js` file to make babel include the `react-native` files (it doesn't work if put in `babel.config.js`)
+i created a simple `babel-register-start.js` file to make babel include the `node_modules` (it doesn't work if put in `babel.config.js` since `@babel/register` ignores them by default)
